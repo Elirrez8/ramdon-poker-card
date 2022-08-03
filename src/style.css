@@ -1,1 +1,49 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  height: 100vh;
+  background-color: #11730e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+}
+.card {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+.header-card {
+  height: 150px;
+  font-size: 80px;
+  text-align: left;
+  line-height: 100px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+.center-card {
+  height: 110px;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 18px;
+}
+.footer-card {
+  height: 150px;
+  font-size: 80px;
+  line-height: 120px;
+  transform: rotate(179deg);
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  border-radius: 10px;
+  font-style: oblique;
+  font-size: 50px;
+  border-style: dashed;
+  margin-left: 20px;
+}
